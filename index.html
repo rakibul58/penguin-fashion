@@ -17,6 +17,9 @@
                         clifford: '#da373d',
                         headerBody: '#FFFBF0',
                         navLink: '#3C3C3C',
+                        bannerYellow: '#FABE4C',
+                        bannerGray: '#363958',
+                        bannerOlive: '#A4BC46',
                     }
                 }
             }
@@ -27,7 +30,7 @@
 
 <body>
     <!-- Header  -->
-    <header class="bg-headerBody">
+    <header class="bg-headerBody mb-96">
         <!-- Navbar -->
         <section>
             <nav class="container mx-auto">
@@ -44,6 +47,25 @@
                     <span class="lg:hidden"><img src="icons/menu-2 1.svg" alt=""></span>
                 </div>
             </nav>
+        </section>
+        <!-- Banner -->
+        <section>
+            <div class="container mx-auto">
+                <div class="md:flex justify-center items-center pb-20 px-5">
+                    <div class="space-y-5">
+                        <h1>
+                            <span class="uppercase text-bannerYellow font-bold text-4xl sm:text-6xl">Be the Penguins</span><br>
+                            <span class="uppercase text-bannerGray font-bold text-4xl sm:text-6xl">of Winter</span>
+                        </h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <button class="bg-bannerOlive rounded-lg px-7 py-3 font-bold text-white hover:bg-green-400"><img
+                                class="inline w-6 " src="icons/shopping-cart 1.png" alt=""> Buy Now</button>
+                    </div>
+                    <div>
+                        <img src="images/model.png" alt="">
+                    </div>
+                </div>
+            </div>
         </section>
     </header>
 </body>
