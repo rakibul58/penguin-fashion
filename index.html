@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        headerBody: '#FFFBF0',
+                        navLink: '#3C3C3C',
+                    }
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <!-- Header  -->
+    <header class="bg-headerBody">
+        <!-- Navbar -->
+        <section>
+            <nav class="container mx-auto">
+                <div class="flex justify-between items-center py-9 px-4 sm:px-8 lg:px-32">
+                    <div>
+                        <img class="w-72" src="images/logo.png" alt="">
+                    </div>
+                    <div class="hidden lg:block">
+                        <a class="text-navLink font-semibold hover:font-bold" href="#Home">Home</a>
+                        <a class="text-navLink font-semibold hover:font-bold ml-5" href="#Home">Product</a>
+                        <a class="text-navLink font-semibold hover:font-bold ml-5" href="#Home">About Us</a>
+                        <a class="text-navLink font-semibold hover:font-bold ml-5" href="#Home">Contact</a>
+                    </div>
+                    <span class="lg:hidden"><img src="icons/menu-2 1.svg" alt=""></span>
+                </div>
+            </nav>
+        </section>
+    </header>
+</body>
+
+</html>
